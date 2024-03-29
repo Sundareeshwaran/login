@@ -10,6 +10,7 @@ form.addEventListener("submit", (event) => {
       showMessage("Invalid username or password");
   } else if (uname == "sanjay" && pwd == "sanju@") {
       showMessage("Login successful!");
+      window.location.href = "https://www.linkedin.com/in/sundareeshwaran/";
   } else {
     showMessage("Invalid username or password");
   }
